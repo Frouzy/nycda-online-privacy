@@ -4,13 +4,10 @@
 	font-family: 'Muli', sans-serif;
 	color: white;
 }
-
 /*Navigation*/
 nav {
 	padding: 10px;
 }
-
-
 #background {
 	background-image: url("../images/background_contribute.jpg");
     background-position:  center bottom;
@@ -47,9 +44,9 @@ nav {
 	background-color: black;
 	opacity: 0.7;
 	width: 50%;
-	height: 400px;
+	height: 450px;
 	border-radius: 10px;
-	margin: 100px auto;
+	margin: 150px auto;
 }
 #nieuwsbrief h1 {
     text-transform: uppercase;
@@ -135,6 +132,7 @@ a:hover {
 	#header {
 		width: 90%;
 		margin: 5% auto;
+		margin-top: 180px;
 	}
 	#nieuwsbrief {
 		width: 90%;
@@ -161,5 +159,9 @@ a:hover {
 		margin: 5px;
 		height: 150px;
 		float: left;
+	}
+	input {
+		color: black;
+		width: 200px;
 	}
 }
