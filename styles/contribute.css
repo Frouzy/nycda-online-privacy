@@ -5,6 +5,12 @@
 	color: white;
 }
 
+/*Navigation*/
+nav {
+	padding: 10px;
+}
+
+
 #background {
 	background-image: url("../images/background_contribute.jpg");
     background-position:  center bottom;
