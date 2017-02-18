@@ -37,6 +37,7 @@
     height: 1200px;
 }
 #nieuwsbrief {
+	text-align: center;
 	background-color: black;
 	opacity: 0.7;
 	width: 50%;
@@ -45,17 +46,14 @@
 	margin: 100px auto;
 }
 #nieuwsbrief h1 {
-	text-align: center;
     text-transform: uppercase;
     padding: 20px;
 }
-#nieuwsbrief h2 {
-	text-align: center;
-}
 #donatie {
+	text-align: center;
 	background-color: black;
 	opacity: 0.7;
-	width: 50%;
+	width: 60%;
 	height: 400px;
 	border-radius: 10px;
 	margin: 100px auto;
@@ -65,16 +63,29 @@
     text-transform: uppercase;
     padding: 20px;
 }
-#donatie h2 {
-	text-align: center;
+.col-sm-4 {
+	border-radius: 10px;
+	border: solid red;
+	margin: 10px;
+	padding: 15px;
+	width: 250px;
 }
-
 a:link, a:visited {
 	color: red;
 	text-decoration: none;
 }
 a:hover {
 	text-decoration: underline;
+}
+
+#euro5:hover {
+	background-color: red;
+}
+#euro10:hover {
+	background-color: red;
+}
+#euro20:hover {
+	background-color: red;
 }
 
 /*Footer*/
@@ -86,6 +97,13 @@ a:hover {
 #toTop {
 	padding-top: 10px;
 	padding-bottom:10px;
+}
+#footer a:link, #footer a:visited {
+	color: white;
+	text-decoration: none;
+}
+#footer a:hover {
+	text-decoration: none;
 }
 #toTop a:link, #toTop a:visited {
 	color: white;
@@ -105,6 +123,7 @@ a:hover {
 		margin: 10% auto;
 	}
 	#donatie {
+		height: 600px;
 		width: 90%;
 		margin: 10% auto;
 	}
