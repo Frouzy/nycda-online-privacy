@@ -77,6 +77,24 @@ a:hover {
 	text-decoration: underline;
 }
 
+/*Footer*/
+#footer {
+	height: 100px;
+	background-color: black;
+	text-align: center;
+}
+#toTop {
+	padding-top: 10px;
+	padding-bottom:10px;
+}
+#toTop a:link, #toTop a:visited {
+	color: white;
+	text-decoration: none;
+}
+#toTop a:hover {
+	text-decoration: underline;
+}
+
 @media screen and (max-width: 760px) {
 	#header {
 		width: 90%;
