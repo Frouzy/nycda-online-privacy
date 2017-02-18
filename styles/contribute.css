@@ -9,7 +9,7 @@ nav {
 	padding: 10px;
 }
 #background {
-	background-image: url("../images/background_contribute.jpg");
+	background-image: url("../images/background1.jpg");
     background-position:  center bottom;
     background-size: cover;
     overflow: hidden;
@@ -33,7 +33,7 @@ nav {
     padding: 20px;
 }
 #sectie {
-	background-image: url("../images/background_contribute2.jpg");
+	background-image: url("../images/background2.jpg");
     background-position:  center bottom;
     background-size: cover;
     overflow: hidden;

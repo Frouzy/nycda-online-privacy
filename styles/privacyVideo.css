@@ -1,138 +1,135 @@
 * {
 	font-family: 'Helvetica 27px', sans-serif;
+    color: white;
 }
 
-* {
-	text-align: justify;
- }
-
- body {
- 	background-color: #463939 
- }
-
-
-html {
-  background-image: url(background3.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
+/*Navigation*/
+nav {
+    padding: 10px;
 }
 
- #title3 {
- 	color: #FFF;
-    font: bold 24px;
-    letter-spacing: 3px;  
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.7);
-    padding: 2% 5% 2% 5%;
-    position: absolute;
-    width: 600px
-
+#background {
+    background-image: url("../images/background1.jpg");
+    background-position:  center bottom;
+    background-size: cover;
+    overflow: hidden;
+    height: 2000px;
 }
-
-#h3 {
+#header {
+    background-color: black;
+    opacity: 0.7;
+    width: 50%;
+    height: 150px;
+    border-radius: 10px;
+    margin: 100px auto;
+    margin-top: 150px;
+}
+#header h2 {
     text-align: center;
-    background-color: #FFF;
-    font: bold;
-    position: absolute;
-    width: 600px;
-    margin-top: 200px;
-    margin-left: 375px;
-    padding: 2% 2% 2% 2%;
+    text-transform: uppercase;
+    padding: 20px;
+}
+#headerSub {
+    background-color: black;
+    opacity: 0.7;
+    width: 50%;
+    height: 300px;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 100px auto;
+}
+#buttons {
+    margin: 20px;
+    text-align: center;
+}
+button {
+    background-color: grey;
+    text-align: center;
+    padding: 10px;
+    width: 100px;
 }
 
+button:focus {
+  outline: none;
+}
 
+#video {
+    background-color: black;
+    width: 80%;
+    height: 600px;
+    border-radius: 10px;
+    margin: 100px auto;
+}
 
-#VideoKind {
-    border-style: none;
-    padding: 0px;
-    margin-top: 400px;
-    margin-right: 50px;
-    margin-bottom: 100px;
-    margin-left: 200px;
+#video h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#video button {
+    text-align: center;
     width: 300px;
-    float: left;
-}
-
-#VideoVolw {
-    border-style: none;
-    padding: 0px;
-    margin-top: 400px;
-    margin-right: 200px;
-    margin-bottom: 100px;
-    width: 300px;
-    float: right;
-
-}
-
-
-.dropbtnKind {
-    background-color: #FF0000;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
+    height: 50px;
+    background-color: red;
     border: none;
-    cursor: pointer;
+}
+
+.slideText{
+    border: solid red;
+    background-color: grey;
+    height: 300px;
     width: 300px;
-  
-}
-
-
-.dropbtnVolw {
-    background-color: #FF0000;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    width: 300px;
-  
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
     display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 300px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
 }
 
-.dropdown-content h4, h5 {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+
+
+/*Footer*/
+#footer {
+    height: 100px;
+    background-color: black;
+    text-align: center;
 }
-
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-    display: block;
+#toTop {
+    padding-top: 10px;
+    padding-bottom:10px;
 }
-
-.dropdown:hover .dropbtn {
-    background-color: #708090;
-}
-
-.a2a_kit, .a2a_kit_size_32, .a2a_floating_style, .a2a_vertical_style {
-    right:0px;
-    top:600px;
-    margin-right: 25px;
-}
-
-#button {
-    background-color: #FF0000;
+#footer a:link, #footer a:visited {
     color: white;
-    padding: 1px;
-    font-size: 1px;
-    border-color: #FFF
-    width: 20px;
+    text-decoration: none;
+}
+#footer a:hover {
+    text-decoration: none;
+}
+#toTop a:link, #toTop a:visited {
+    color: white;
+    text-decoration: none;
+}
+#toTop a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 760px) {
+    #header {
+        width: 90%;
+        height:200px;
+        margin: 5% auto;
+        margin-top: 180px;
+        padding: 0px;
+    }
+
+    #headerSub {
+        width: 90%;
+        height:400px;
+        margin: 5% auto;
+        padding: 10px;
+    }
+
+
+    #video {
+        width: 90%;
+        height:2000px;
+        margin: 5% auto;
+    }
 
 }
