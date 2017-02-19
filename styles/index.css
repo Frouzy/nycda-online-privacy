@@ -15,7 +15,7 @@ nav {
     background-position: center bottom;
     background-size: cover;
     overflow: hidden;
-    height: 600px;
+    height: 800px;
     clear: left;
 }
 
@@ -25,7 +25,7 @@ nav {
     width: 50%;
     height: 150px;
     border-radius: 10px;
-    margin: 100px auto;
+    margin: 300px auto;
 }
 
 #box-one h1 {
@@ -39,7 +39,7 @@ nav {
     background-position: center bottom;
     background-size: cover;
     overflow: hidden;
-    height: 600px;
+    height: 800px;
     clear: left;
 }
 
@@ -50,7 +50,7 @@ nav {
     width: 50%;
     height: 150px;
     border-radius: 10px;
-    margin: 150px auto;
+    margin: 300px auto;
 }
 
 #box-two h1 {
@@ -60,18 +60,29 @@ nav {
 /*Content*/
 p {
     color: black;
+    padding: 10px;
+}
+
+p strong{
+    color: black;
+
+}
+
+blockquote{
+    color: crimson;
+    margin-left: 20px;
 }
 
 #quote-one {
     background-color: #8d1e34;
     font-style: italic;
-    padding:20px;
+    padding:120px;
 }
 
 #quote-two {
     background-color: #406b85;
     font-style: italic;
-    padding:20px;
+    padding:120px;
 }
 
 
