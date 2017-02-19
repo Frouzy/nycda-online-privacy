@@ -60,6 +60,20 @@ button:focus {
     border-radius: 10px;
     margin: 100px auto;
 }
+
+#videoKind {
+    margin-right: 50px;
+    margin-bottom: 650px;
+    margin-left: 200px;
+    float: left;
+ }
+ 
+ #videoVolw {
+    margin-right: 200px;
+    margin-bottom: 650px;
+    float: right;
+ }
+
 #video h1 {
     text-align: center;
     text-transform: uppercase;
@@ -77,6 +91,7 @@ button:focus {
     height: 300px;
     width: 300px;
     display: none;
+    text-align: center;
 }
 
 /*Footer*/
