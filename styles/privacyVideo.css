@@ -48,7 +48,6 @@ button {
     padding: 10px;
     width: 100px;
 }
-
 button:focus {
   outline: none;
 }
@@ -56,16 +55,14 @@ button:focus {
 #video {
     background-color: black;
     width: 80%;
-    height: 600px;
+    height: 550px;
     border-radius: 10px;
     margin: 100px auto;
 }
-
 #video h1 {
     text-align: center;
     text-transform: uppercase;
 }
-
 #video button {
     text-align: center;
     width: 300px;
@@ -73,7 +70,6 @@ button:focus {
     background-color: red;
     border: none;
 }
-
 .slideText{
     border: solid red;
     background-color: grey;
@@ -81,8 +77,6 @@ button:focus {
     width: 300px;
     display: none;
 }
-
-
 
 /*Footer*/
 #footer {
@@ -117,15 +111,12 @@ button:focus {
         margin-top: 180px;
         padding: 0px;
     }
-
     #headerSub {
         width: 90%;
         height:400px;
         margin: 5% auto;
         padding: 10px;
     }
-
-
     #video {
         width: 90%;
         height:2000px;
