@@ -62,8 +62,16 @@ p {
     color: black;
 }
 
-.col-sm-3 {
+#quote-one {
     background-color: #8d1e34;
+    font-style: italic;
+    padding:20px;
+}
+
+#quote-two {
+    background-color: #406b85;
+    font-style: italic;
+    padding:20px;
 }
 
 
@@ -89,9 +97,6 @@ p {
     text-decoration: underline;
 }
 
-
-
-
 @media screen and (max-width: 760px) {
     #box-one {
         width: 90%;
@@ -104,6 +109,12 @@ p {
         margin: 10% auto;
     }
 
-}
+    #quote-one{
+        display: none;
+    }
+
+    #quote-two{
+        display: none;
+    }
 
 }
