@@ -2,91 +2,92 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Online Privacy | Contribute</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Online Privacy | Contribute</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!--Google Fonts-->
-	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
-	<!--jQuery and Bootstrap-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/contribute.js"></script>
-	
-	<!--CSS-->
-  	<link rel="stylesheet" type="text/css" href="styles/contribute.css">
+    <!--jQuery and Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/contribute.js"></script>
+
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="styles/contribute.css">
 </head>
 <body>
-	<!-- Navigation -->
-	<nav class="navbar navbar-inverse navbar-fixed-top">
-	  <div class="container-fluid">
-	    <div class="navbar-header">
-	      <a class="navbar-brand" href="index.html">Online Privacy</a>
-	    </div>
-	    <ul class="nav navbar-nav">
-	      <li><a href="privacyVideo.html">Zet jij je leven op Internet?</a></li>
-	      <li><a href="contribute.html">Help ons</a></li>
-	    </ul>
-	  </div>
-	</nav>
-	<!-- Header -->
-	<div class="container-fluid" id="background">
-		<div class="container-fluid" id="header">
-			<h1>Help ons met het bewustmaken van online-privacy</h1>
-			<h2>Schrijf je nu in voor de <a href="#nieuwsbrief">nieuwsbrief</a> of doe een <a href="#donatie">donatie</a>.</h2>
-		</div>	
-	</div>
-	<!-- Sectie (Nieuwsbrief + Donatie) -->
-	<div class="container-fluid" id="sectie">
-		<div class="container-fluid" id="nieuwsbrief">
-			<h1>Nieuwsbrief</h1>
-			<h2>Blijf op de hoogte over de ontwikkelingen van online-privacy!</h2>
-			<div>
-				<input type="text" value="Naam" id="inputName" onfocus="clearThis(this)"></input>
-			</div>
-			<div>
-				<input type="text" value="Emailadres" id="inputMail"></input>
-			</div>
-			<button id="verstuur">Verstuur</button>
-		</div>
-		<div class="container-fluid" id="donatie">
-			<h1>Donatie</h1>
-			<h2>Met jouw hulp kunnen onze vrijwilligers voorlichting blijven geven over online-privacy!</h2>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">Online Privacy</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="privacyVideo.html">Zet jij je leven op Internet?</a></li>
+            <li><a href="contribute.html">Help ons</a></li>
+        </ul>
+    </div>
+</nav>
+<!-- Header -->
+<div class="container-fluid" id="background">
+    <div class="container-fluid" id="header">
+        <h1>Help ons met het bewustmaken van online-privacy</h1>
+        <h2>Schrijf je nu in voor de <a href="#nieuwsbrief">nieuwsbrief</a> of doe een <a href="#donatie">donatie</a>.
+        </h2>
+    </div>
+</div>
+<!-- Sectie (Nieuwsbrief + Donatie) -->
+<div class="container-fluid" id="sectie">
+    <div class="container-fluid" id="nieuwsbrief">
+        <h1>Nieuwsbrief</h1>
+        <h2>Blijf op de hoogte over de ontwikkelingen van online-privacy!</h2>
+        <div>
+            <input type="text" value="Naam" id="inputName" onfocus="clearThis(this)"></input>
+        </div>
+        <div>
+            <input type="text" value="Emailadres" id="inputMail"></input>
+        </div>
+        <button id="verstuur">Verstuur</button>
+    </div>
+    <div class="container-fluid" id="donatie">
+        <h1>Donatie</h1>
+        <h2>Met jouw hulp kunnen onze vrijwilligers voorlichting blijven geven over online-privacy!</h2>
 
-			<div class="row">
-				<div class="col-sm-4" id="euro5">
-					<h3>Ik doneer 5 Euro</h3>
-				</div>					
-				<div class="col-sm-4" id="euro10">
-					<h3>Ik doneer 10 Euro</h3>
-				</div>					
-				<div class="col-sm-4" id="euro20">
-					<h3>Ik doneer 20 Euro</h3>
-				</div>					
-			</div>
-		</div>		
-	</div>
-	<!--Footer-->
-	<div class="container-fluid" id="footer">
-		<div id="toTop">
-			<a href="#header">Naar boven</a>
-		</div>
-		<div id="toLinks">
-			<a href="http:/www.facebook.com" target="_blank">
-				<img src="images/icon_facebook.png" alt="image" width="40">
-			</a>
-			<a href="http:/www.twitter.com" target="_blank">
-				<img src="images/icon_twitter.png" alt="image" width="40">
-			</a>
-			<a href="http:/www.instagram.com" target="_blank">
-				<img src="images/icon_instagram.png" alt="image" width="40">
-			</a>
-			<a href="http:/www.youtube.com" target="_blank">
-				<img src="images/icon_youtube.png" alt="image" width="40">
-			</a>
-		</div>
-	</div>
+        <div class="row">
+            <div class="col-sm-4" id="euro5">
+                <h3>Ik doneer 5 Euro</h3>
+            </div>
+            <div class="col-sm-4" id="euro10">
+                <h3>Ik doneer 10 Euro</h3>
+            </div>
+            <div class="col-sm-4" id="euro20">
+                <h3>Ik doneer 20 Euro</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Footer-->
+<div class="container-fluid" id="footer">
+    <div id="toTop">
+        <a href="#header">Naar boven</a>
+    </div>
+    <div id="toLinks">
+        <a href="http:/www.facebook.com" target="_blank">
+            <img src="images/icon_facebook.png" alt="image" width="40">
+        </a>
+        <a href="http:/www.twitter.com" target="_blank">
+            <img src="images/icon_twitter.png" alt="image" width="40">
+        </a>
+        <a href="http:/www.instagram.com" target="_blank">
+            <img src="images/icon_instagram.png" alt="image" width="40">
+        </a>
+        <a href="http:/www.youtube.com" target="_blank">
+            <img src="images/icon_youtube.png" alt="image" width="40">
+        </a>
+    </div>
+</div>
 </body>
 </html>

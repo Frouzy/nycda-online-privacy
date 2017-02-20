@@ -8,7 +8,6 @@ nav {
     padding: 10px;
 }
 
-
 /*Header One*/
 #background-one {
     background-image: url(https://images.unsplash.com/photo-1461685265823-f8d5d0b08b9b);
@@ -57,18 +56,19 @@ nav {
     text-align: center;
     padding: 30px;
 }
+
 /*Content*/
 p {
     color: black;
     padding: 10px;
 }
 
-p strong{
+p strong {
     color: black;
 
 }
 
-blockquote{
+blockquote {
     color: crimson;
     margin-left: 20px;
 }
@@ -76,15 +76,14 @@ blockquote{
 #quote-one {
     background-color: #8d1e34;
     font-style: italic;
-    padding:120px;
+    padding: 120px;
 }
 
 #quote-two {
     background-color: #406b85;
     font-style: italic;
-    padding:120px;
+    padding: 120px;
 }
-
 
 /*Footer*/
 #footer {
@@ -97,7 +96,6 @@ blockquote{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
 
 #top a:link, #top a:visited {
     color: white;
@@ -120,11 +118,11 @@ blockquote{
         margin: 10% auto;
     }
 
-    #quote-one{
+    #quote-one {
         display: none;
     }
 
-    #quote-two{
+    #quote-two {
         display: none;
     }
 

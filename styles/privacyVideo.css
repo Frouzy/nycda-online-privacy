@@ -1,5 +1,5 @@
 * {
-	font-family: 'Helvetica 27px', sans-serif;
+    font-family: 'Helvetica 27px', sans-serif;
     color: white;
 }
 
@@ -9,12 +9,13 @@ nav {
 }
 
 #background {
-    background-image: url("../images/background1.jpg");
-    background-position:  center bottom;
+    background-image: url(https://images.unsplash.com/photo-1480160734175-e2209654433c);
+    background-position: center bottom;
     background-size: cover;
     overflow: hidden;
     height: 2000px;
 }
+
 #header {
     background-color: black;
     opacity: 0.7;
@@ -24,11 +25,13 @@ nav {
     margin: 100px auto;
     margin-top: 150px;
 }
+
 #header h2 {
     text-align: center;
     text-transform: uppercase;
     padding: 20px;
 }
+
 #headerSub {
     background-color: black;
     opacity: 0.7;
@@ -39,18 +42,21 @@ nav {
     margin: 100px auto;
     text-align: center;
 }
+
 #buttons {
     margin: 20px;
     text-align: center;
 }
+
 button {
     background-color: grey;
     text-align: center;
     padding: 10px;
     width: 100px;
 }
+
 button:focus {
-  outline: none;
+    outline: none;
 }
 
 #video {
@@ -66,18 +72,19 @@ button:focus {
     margin-bottom: 650px;
     margin-left: 200px;
     float: left;
- }
- 
- #videoVolw {
+}
+
+#videoVolw {
     margin-right: 200px;
     margin-bottom: 650px;
     float: right;
- }
+}
 
 #video h1 {
     text-align: center;
     text-transform: uppercase;
 }
+
 #video button {
     text-align: center;
     width: 300px;
@@ -85,7 +92,8 @@ button:focus {
     background-color: red;
     border: none;
 }
-.slideText{
+
+.slideText {
     border: solid red;
     background-color: grey;
     height: 300px;
@@ -100,21 +108,26 @@ button:focus {
     background-color: black;
     text-align: center;
 }
+
 #toTop {
     padding-top: 10px;
-    padding-bottom:10px;
+    padding-bottom: 10px;
 }
+
 #footer a:link, #footer a:visited {
     color: white;
     text-decoration: none;
 }
+
 #footer a:hover {
     text-decoration: none;
 }
+
 #toTop a:link, #toTop a:visited {
     color: white;
     text-decoration: none;
 }
+
 #toTop a:hover {
     text-decoration: underline;
 }
@@ -122,20 +135,22 @@ button:focus {
 @media screen and (max-width: 760px) {
     #header {
         width: 90%;
-        height:200px;
+        height: 200px;
         margin: 5% auto;
         margin-top: 180px;
         padding: 0px;
     }
+
     #headerSub {
         width: 90%;
-        height:400px;
+        height: 400px;
         margin: 5% auto;
         padding: 10px;
     }
+
     #video {
         width: 90%;
-        height:2000px;
+        height: 2000px;
         margin: 10% auto;
     }
 
